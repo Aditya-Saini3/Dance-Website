@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/statc/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    section#introSection.intro            
+        .welcome  Welcome to Adi's Dance Academy
+        .quote     Eat, Sleep, Dance, Repeat 
+
+    section#OurMissionSection           
+        .ourmission Our Mission  
+        .container 
+            .card 
+                .box 
+                    .content 
+                        h2 01
+                        h3 Dance expertise 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quod nemo perspiciatis dolorem, nesciunt velit, veniam voluptas a praesentium ipsum soluta quam adipisci magni illum quaerat facere voluptatibus. Non earum dicta temporibus harum.
+                        a(href="#") Read More 
+            .card 
+                .box 
+                    .content 
+                        h2 02
+                        h3 Producing Best Dancers
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quod nemo perspiciatis dolorem, nesciunt velit, veniam voluptas a praesentium ipsum soluta quam adipisci magni illum quaerat facere voluptatibus. Non earum dicta temporibus harum.
+                        a(href="#") Read More 
+            .card 
+                .box 
+                    .content 
+                        h2 03
+                        h3 Encouraging Dancing 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quod nemo perspiciatis dolorem, nesciunt velit, veniam voluptas a praesentium ipsum soluta quam adipisci magni illum quaerat facere voluptatibus. Non earum dicta temporibus harum.
+                        a(href="#") Read More 
+
+    section#sponsorsSection           
+        .oursponsors Our Sponsors 
+            .partners
+                .drop 
+                    img(src="/static/logo-apple.svg", alt="")
+                .drop 
+                    img(src="/static/logo-facebook.svg", alt="")
+                .drop 
+                    img(src="/static/logo-microsoft.svg", alt="")
+                .drop 
+                    img(src="/static/logo-twitter.svg", alt="")

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+   display: flex;
+   color: white;
+   align-items: center;
+   margin: 0px 8px;
+   font-family: 'Comforter Brush', cursive;
+   font-size: 22px;
+}
+
+#logo:hover{
+    color: black;
+}
+
+#logo img{
+    height: 31px;
+}
+
+#logo img:hover{
+    filter: invert(1);
+}
+
+#navbar{
+    padding: 13px;
+    background-color: #f50044;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar ul li a{
+  text-decoration: none;
+  padding: 7px 24px;
+  margin: 5px;
+  color: white;
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+}
+#navbar ul li a:hover{
+    background: linear-gradient(270deg,#261016, #890025,#b80031, #f50044);
+            transition: 0.2s;
+            border-radius: 20px;
+}
+#navbar li{
+  list-style: none;
+}
+.container{
+    min-height: 86vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.myForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.myInput{
+    font-size: 1rem;
+    display: block;
+    width: 40%;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border: 0.13rem solid black;
+    border-radius: 0.6rem;
+    outline: none;
+}
+
+.btn{
+    padding: 0.5rem;
+    border: 0.13rem solid black;
+    border-radius: 0.6rem;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: white;
+}
+
+#footer{
+    height: 36px;
+    background-color:#f50032;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
